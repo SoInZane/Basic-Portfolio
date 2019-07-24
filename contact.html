@@ -3,25 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <title>Cameron Wilsons Basic Portfolio</title>
-        <link rel="stylesheet" type="assests/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <body background="assets/images/papyrus-dark.png">
 
     </head>
     <body>
 
-        <div class="header">
-            <h1>Cameron Wilson</h1>
-            <a href="index.html" class="about">About</a>
-            <div class="header-right">
-            <a class="Portfolio" href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+        <div class="header_content">
+            <div id= "name">
+                Cameron Wilson
+            </div>
+            <div id="header_right">
+                <a href="index.html" class="about">About</a>
+                <a href="portfolio.html" class="Portfolio">Portfolio</a>
+                <a href="contact.html" class="contact"> Contact</a>
             </div>
         </div>
 
-        <div class="container">
+        <h3>Contact</h3>
 
-            <section id="about me">
-                <h2>Contact</h2>
-            </section>
+        <div class="container_2">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="subject">Subject</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
 
 
         </div>
