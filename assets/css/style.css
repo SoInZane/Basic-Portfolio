@@ -178,6 +178,13 @@ a:active {
     background: #4aaaa5;
     border-bottom: 0;
   }
+  .work a{
+    color: #ffffff;
+  }
+
+  .work a:hover{
+    color: #666666;
+  }
   
   .auth-image {
     float: left;
