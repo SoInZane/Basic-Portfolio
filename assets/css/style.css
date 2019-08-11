@@ -164,6 +164,9 @@ a:active {
     border: 0 none;
     opacity: 0.8;
   }
+  #wordGuess {
+    height: 155px;
+  }
   
   .work h3 {
     position: absolute;
