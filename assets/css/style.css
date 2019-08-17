@@ -167,6 +167,10 @@ a:active {
   #wordGuess {
     height: 155px;
   }
+
+  #crystalCollector {
+    height: 138px;
+  }
   
   .work h3 {
     position: absolute;
@@ -176,6 +180,7 @@ a:active {
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
+    opacity: 0.8;
     color: #ffffff;
     text-align: center;
     background: #4aaaa5;
