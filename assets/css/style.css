@@ -171,6 +171,10 @@ a:active {
   #crystalCollector {
     height: 138px;
   }
+
+  #triviaGame {
+    height: 138px;
+  }
   
   .work h3 {
     position: absolute;
