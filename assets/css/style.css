@@ -175,6 +175,10 @@ a:active {
   #triviaGame {
     height: 138px;
   }
+
+  #train {
+    height: 144px;
+  }
   
   .work h3 {
     position: absolute;
