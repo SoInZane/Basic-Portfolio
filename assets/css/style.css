@@ -34,7 +34,8 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    /* color: #4aaaa5; */
+    color: orangered;
   }
   
   h1 {
@@ -59,7 +60,8 @@ body {
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
-    border-bottom: 2px solid #cccccc;
+    /* border-bottom: 2px solid #cccccc; */
+    border-bottom: 2px solid orangered;
   }
   
   #logo {
@@ -73,7 +75,10 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    /* background: #4aaaa5; */
+    background: orangered;
+    border-radius: 4px;
+    
   }
   
   nav {
@@ -100,11 +105,13 @@ a:link{
 }
 
 a:hover {
-    color: #4aaaa5;
+    /* color: #4aaaa5; */
+    color: orangered;
 }
 
 a:active {
-    color: #4aaaa5;
+    /* color: #4aaaa5; */
+    color: orangered;
 }
   
   /* footer */
@@ -117,7 +124,8 @@ a:active {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    /* border-top: 8px solid #4aaaa5; */
+    border-top: 8px solid orangered;
     height: 50px;
   }
   
@@ -150,13 +158,14 @@ a:active {
   .work {
     position: relative;
     float: left;
-    width: 274px;
-    margin: 20px 0 25px;
+    width: 250px;
+    margin: 20px 0 20px;
     overflow: auto;
   }
   
   .work:nth-child(even) {
-    margin-right: 40px;
+    margin-right: 100px;
+    margin-left: 160px;
   }
   
   .work img {
@@ -164,20 +173,33 @@ a:active {
     border: 0 none;
     opacity: 0.8;
   }
+
+  #compriMeet {
+    height: 155px;
+  }
+
+  #psychicGame {
+    height: 155px;
+  }
+
   #wordGuess {
     height: 155px;
   }
 
   #crystalCollector {
-    height: 138px;
+    height: 155px;
   }
 
   #triviaGame {
-    height: 138px;
+    height: 155px;
+  }
+
+  #giphy {
+    height: 155px;
   }
 
   #train {
-    height: 144px;
+    height: 155px;
   }
   
   .work h3 {
@@ -191,7 +213,8 @@ a:active {
     opacity: 0.8;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    /* background: #4aaaa5; */
+    background: orangered;
     border-bottom: 0;
   }
   .work a{
@@ -211,8 +234,46 @@ a:active {
   }
   
   /* contact page */
+
+  .LI-profile-badge {
+    float: left;
+    border: 1px solid #dddddd;
+    
+
+  }
+
+  .github-image {
+    width: 280px;
+    height: 220px;
+    margin-left: 25px;
+    margin-right: 20px;
+    border: 1px solid #dddddd;
+  }
+
+  .resume-image {
+    width: 280px;
+    height: 220px;
+    border: 1px solid #dddddd;
+  }
+
+  .my-email {
+    width: 280px;
+    height: 220px;
+    margin-left: 15%;
+    border: 1px solid #dddddd;
+    overflow: auto;
+  }
+
+  .my-phone {
+    width: 280px;
+    height: 220px;
+    margin-left: 25px;
+    border: 1px solid #dddddd;
+  }
+
+
   
-  #contact-form ul {
+  /* #contact-form ul {
     margin-bottom: 20px;
   }
   
@@ -246,5 +307,5 @@ input[type=submit] {
   
 input[type=submit]:hover {
     background-color: #666666;
-  }
+  } */
   
