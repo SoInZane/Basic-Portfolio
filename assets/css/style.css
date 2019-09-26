@@ -206,7 +206,6 @@ a:active {
     opacity: 0.8;
     color: #ffffff;
     text-align: center;
-    /* background: #4aaaa5; */
     background: orangered;
     border-bottom: 0;
   }
@@ -215,7 +214,7 @@ a:active {
   }
 
   .work a:hover{
-    color: #666666;
+    color: darkblue;
   }
   
   .auth-image {
