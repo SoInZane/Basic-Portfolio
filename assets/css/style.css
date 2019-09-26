@@ -34,7 +34,6 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    /* color: #4aaaa5; */
     color: orangered;
   }
   
@@ -60,7 +59,6 @@ body {
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
-    /* border-bottom: 2px solid #cccccc; */
     border-bottom: 2px solid orangered;
   }
   
@@ -75,10 +73,8 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    /* background: #4aaaa5; */
     background: orangered;
     border-radius: 4px;
-    
   }
   
   nav {
@@ -105,12 +101,10 @@ a:link{
 }
 
 a:hover {
-    /* color: #4aaaa5; */
-    color: orangered;
+    color: darkblue;
 }
 
 a:active {
-    /* color: #4aaaa5; */
     color: orangered;
 }
   
@@ -124,7 +118,6 @@ a:active {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    /* border-top: 8px solid #4aaaa5; */
     border-top: 8px solid orangered;
     height: 50px;
   }
@@ -150,7 +143,7 @@ a:active {
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
-    border: 1px solid #dddddd;
+    border: 4px solid orangered;
   }
   
   /* portfolio page */
@@ -238,8 +231,6 @@ a:active {
   .LI-profile-badge {
     float: left;
     border: 1px solid #dddddd;
-    
-
   }
 
   .github-image {
@@ -271,41 +262,88 @@ a:active {
     border: 1px solid #dddddd;
   }
 
-
   
-  /* #contact-form ul {
-    margin-bottom: 20px;
+  @media only screen and (max-width:980px) {
+    nav {
+      margin-right: 5px;
+    }
   }
   
-  #contact-form li {
-    margin-bottom: 10px;
+  
+  @media only screen and (max-width: 768px) {
+    .main-section,
+    .sidebar {
+      max-width: 100%;
+    }
+  
+    main {
+      overflow: auto;
+    }
+  
+    .work {
+      /* Box-model */
+      width: 47%;
+  
+      /* Positioning */
+      margin-bottom: 10px;
+    }
+  
+    .work:nth-child(even) {
+      margin-right: 0;
+    }
+  
+    .work:nth-child(odd) {
+      float: right;
+    }
+  
+    .auth-image {
+      width: 50%;
+    }
+  
+    .sidebar {
+      margin-bottom: 40px;
+    }
   }
   
-  input[type=text],
-  input[type=email], 
-  select, 
-  textarea {
-    display:block;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #777777;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin: auto;
-    resize: vertical;
-} 
-
-input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-    border-radius: 4px;
-  }
+  @media only screen and (max-width: 640px){
+    #masthead {
+      /* Positioning */
+      position: static;
+      margin-bottom: 20px;
+    }
   
-input[type=submit]:hover {
-    background-color: #666666;
-  } */
+    header .container {
+      padding: 0;
+    }
+  
+    main.container {
+      padding-top: 0;
+    }
+  
+    #logo,
+    .work,
+    .auth-image {
+      width: 100%;
+    }
+  
+    nav {
+      /* Box-model */
+      width: 100%;
+  
+      /* Positioning */
+      margin: 15px 0;
+  
+      /* Typography */
+      text-align: center;
+    }
+  
+    nav a {
+      /* Box-model */
+      width: 30%;
+      padding-left: 0;
+  
+      /* Positioning */
+      margin-left: 0;
+    }
+  }
   
