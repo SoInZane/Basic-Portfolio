@@ -194,6 +194,10 @@ a:active {
   #train {
     height: 155px;
   }
+
+  #friends {
+    height: 155px;
+  }
   
   .work h3 {
     position: absolute;
