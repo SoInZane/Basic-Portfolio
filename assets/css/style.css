@@ -167,6 +167,10 @@ a:active {
     opacity: 0.8;
   }
 
+  #readyUp {
+    height: 155px;
+  }
+
   #compriMeet {
     height: 155px;
   }
