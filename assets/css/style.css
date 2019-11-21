@@ -165,26 +165,22 @@ a:active {
   left: 0; /* On mouse-over, make the elements appear as they should */
 }
 
-/* The github link: 130px from the top with a grey background */
-#github {
+#social_1 {
   top: 130px;
   background-color: #666666;
 }
 
-/* The linkedin link: 190px from the top with the linkedin blue background */
-#linkedin {
+#social_2 {
   top: 190px;
   background-color: #2867B2;
 }
 
-/* The portfolio page link: 250px from the top with a orangered background */
-#projects {
+#social_3 {
   top: 250px;
   background-color: orangered;
 }
 
-/* The contact page link: 310px from the top with a white background */
-#contact {
+#social_4 {
   top: 310px;
   background-color: white;
 }
